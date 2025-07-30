@@ -60,8 +60,6 @@ djangotutorial/
 ├── polls/
 │   ├── migrations/
 │   ├── static/
-│								├── polls/
-│												├── images/
 │   ├── templates/
 │   ├── __init__.py
 │   ├── admin.py
