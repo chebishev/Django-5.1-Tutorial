@@ -55,7 +55,7 @@ Now visit http://127.0.0.1:8000 in your browser.
 ---
 
 📁 Project Structure
-
+```bash
 djangotutorial/
 ├── polls/
 │   ├── migrations/
@@ -80,7 +80,7 @@ djangotutorial/
 LICENSE
 README.md
 requirements.txt
-
+```
 ---
 
 ## ✍️ Based On
