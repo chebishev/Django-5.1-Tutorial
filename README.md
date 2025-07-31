@@ -32,15 +32,18 @@ pip
 (Optional) Virtualenv or venv
 
 
-Setup
+## Setup
 
+```bash
 # Clone the repository
 git clone https://github.com/chebishev/Django-5.1-Tutorial.git
 cd Django-5.1-Tutorial
 
 # (Optional) Create a virtual environment
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  
+# or on Windows:
+.venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -48,8 +51,9 @@ pip install -r requirements.txt
 # Apply migrations and run the server
 python manage.py migrate
 python manage.py runserver
+```
 
-Now visit http://127.0.0.1:8000 in your browser.
+Now visit http://127.0.0.1:8000/polls in your browser.
 
 
 ---
